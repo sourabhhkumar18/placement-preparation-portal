@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* Heatmap */
+
+.react-calendar-heatmap .color-empty {
+  fill: #e5e7eb;
+}
+
+.dark .react-calendar-heatmap .color-empty {
+  fill: #374151;
+}
+
+.react-calendar-heatmap .color-github-3 {
+  fill: #2563eb;
+}
