@@ -1,6 +1,12 @@
 # 🚀 Placement Preparation Portal
 
-A full-stack MERN application that helps students organize placement preparation through secure authentication, smart note management, analytics, and an attractive responsive dashboard.
+A modern full-stack MERN application that helps students organize and track their placement preparation journey.
+
+---
+
+## 📌 Overview
+
+Placement Preparation Portal is designed to help students manage interview preparation in one place. It provides secure authentication, note management, analytics, and progress tracking with a clean and responsive UI.
 
 ---
 
@@ -8,18 +14,14 @@ A full-stack MERN application that helps students organize placement preparation
 
 - 🔐 JWT Authentication
 - 👤 User Registration & Login
-- 📝 Create, Edit & Delete Notes
-- 📌 Pin Important Notes
-- 🔍 Search Notes
-- 🏷️ Category Filter
-- ⚡ Priority Filter
-- 📊 Dashboard Analytics
-- 📈 Preparation Progress
-- 🌙 Dark Mode
-- 📱 Fully Responsive UI
-- 🎨 Modern Animations using Framer Motion
-- 🚀 Beautiful Dashboard
-- 🛡️ Protected Routes
+- 📝 Create, Update & Delete Notes
+- 📂 Organize Notes by Category
+- ⭐ Priority-based Notes
+- 🔍 Search & Filter Notes
+- 📊 Analytics Dashboard
+- 📈 Preparation Progress Tracking
+- 🌙 Dark Mode Support
+- 📱 Fully Responsive Design
 
 ---
 
@@ -28,53 +30,91 @@ A full-stack MERN application that helps students organize placement preparation
 ### Frontend
 
 - React.js
-- React Router DOM
+- Vite
 - Tailwind CSS
-- Framer Motion
+- React Router
 - Axios
-- React Icons
-- React Toastify
+- Framer Motion
 
 ### Backend
 
 - Node.js
 - Express.js
-- MongoDB
+- MongoDB Atlas
 - Mongoose
-- JWT
-- bcrypt
+- JWT Authentication
+- bcrypt.js
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
-```
-Placement-Preparation-Portal
-│
-├── frontend
-│   ├── components
-│   ├── pages
-│   ├── services
-│   └── App.jsx
+```text
+placement-preparation-portal
 │
 ├── backend
+│   ├── config
 │   ├── controllers
-│   ├── routes
-│   ├── models
 │   ├── middleware
+│   ├── models
+│   ├── routes
 │   └── server.js
 │
+├── frontend
+│   ├── public
+│   ├── src
+│   └── package.json
+│
+├── docs
 └── README.md
 ```
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home](docs/home.png)
+
+---
+
+## 🔐 Login Page
+
+![Login](docs/login.png)
+
+---
+
+## 📝 Register Page
+
+![Register](docs/register.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](docs/dashboard.png)
+
+---
+
+## 👤 Profile
+
+![Profile](docs/profile.png)
+
+---
+
+## 🌙 Dark Mode
+
+![Dark Mode](docs/darkmode.png)
+
+---
+
 ## ⚙️ Installation
 
-### Clone Repository
+### Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sourabhhkumar18/placement-preparation-portal.git
 ```
 
 ### Backend
@@ -82,7 +122,7 @@ git clone <repository-url>
 ```bash
 cd backend
 npm install
-npm run dev
+npm start
 ```
 
 ### Frontend
@@ -95,20 +135,14 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots here after deployment.
-
----
-
 ## 🚀 Future Improvements
 
-- File Upload
-- Rich Text Editor
-- AI Note Summarizer
-- Calendar Planner
-- Coding Tracker
-- Daily Streak System
+- AI Study Assistant
+- Coding Progress Tracker
+- Mock Interview Module
+- Company-wise Preparation Roadmaps
+- Email Notifications
+- Calendar Integration
 
 ---
 
@@ -116,4 +150,11 @@ Add screenshots here after deployment.
 
 **Sourabh Kumar**
 
-Built with ❤️ using the MERN Stack.
+GitHub:
+https://github.com/sourabhhkumar18
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
