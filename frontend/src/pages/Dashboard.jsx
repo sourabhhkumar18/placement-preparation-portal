@@ -204,7 +204,7 @@ const updateNote = async (id, updatedData) => {
   try {
 
     const response = await axios.put(
-      `http://localhost:5000/api/notes/${id}`,
+      `https://placement-preparation-portal-api.onrender.com/api/notes/${id}`,
       updatedData,
       {
         headers: {
